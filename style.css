@@ -1,0 +1,194 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: rgb(214, 213, 212);
+  color: #332f2f;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+  .button-container {
+    text-align: center;
+  }
+  
+  .button-container .button {
+    padding: 9px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+
+
+header, section, footer {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.plan {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form label, form input, form button {
+  display: block;
+  margin-bottom: 9px;
+}
+
+header {
+  background-color: #888383;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+#sobre:hover{
+  background-color: rgb(145, 142, 142);
+  border-radius: 3px;
+}
+
+#recursos:hover{
+  background-color: rgb(145, 142, 142);
+  border-radius: 3px;
+}
+
+#objetivo:hover{
+  background-color: rgb(145, 142, 142);
+  border-radius: 3px;
+}
+
+#contatos:hover{
+  background-color: rgb(145, 142, 142);
+  border-radius: 3px;
+}
